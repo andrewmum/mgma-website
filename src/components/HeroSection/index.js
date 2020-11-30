@@ -1,9 +1,6 @@
-import React from 'react'
-// import "./HeroSection.css"
-// import {Button} from '../ButtonElements'
-import {HeroContainer, HeroH, HeroP,HeroP2, HeroBtn, Button} from './HeroSectionElements'
+import React from 'react';
+import {HeroContainer, HeroH, HeroP,HeroP2} from './HeroSectionElements'
 import { AiOutlineArrowDown } from "react-icons/ai";
-import {Link } from 'gatsby';
 import Btn from 'react-bootstrap/Button'
 
 

@@ -1,6 +1,6 @@
 import React from "react"
 // import { Link } from "gatsby"
-import scrollTo from 'gatsby-plugin-smoothscroll';
+// import scrollTo from 'gatsby-plugin-smoothscroll';
 import "../../node_modules/bootstrap/dist/css/bootstrap.css"
 
 

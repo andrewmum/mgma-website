@@ -1,7 +1,7 @@
 import React from 'react'
 import Carousel from 'react-bootstrap/Carousel';
 import {MeetingContainer, MeetingLeft, MeetingRight, Title, Information, MeetingTime, Caro} from './MeetingComponents'
-import BackgroundSlider from 'gatsby-image-background-slider'
+// import BackgroundSlider from 'gatsby-image-background-slider'
 import bg1 from '../../images/img-2.jpg'
 import bg2 from '../../images/img-3.jpg'
 import bg3 from '../../images/img-4.jpg'
