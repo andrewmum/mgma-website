@@ -5,6 +5,7 @@ import "../../node_modules/bootstrap/dist/css/bootstrap.css"
 
 
 import Image from '../components/image'
+
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import HeroSection from "../components/HeroSection"
