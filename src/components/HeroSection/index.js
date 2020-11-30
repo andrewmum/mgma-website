@@ -1,7 +1,9 @@
 import React from 'react';
 import {HeroContainer, HeroH, HeroP,HeroP2} from './HeroSectionElements'
 import { AiOutlineArrowDown } from "react-icons/ai";
-import Btn from 'react-bootstrap/Button'
+import Btn from 'react-bootstrap/Button';
+import scrollTo from 'gatsby-plugin-smoothscroll';
+
 
 
 
@@ -19,7 +21,7 @@ function HeroSection(){
                 <HeroP2>
                     CSRA, GA
                 </HeroP2>
-                <Btn variant="dark" size="lg"> <AiOutlineArrowDown /></Btn> 
+                <Btn onClick={() => scrollTo('.Mission')}  variant="outline-info" size="lg"> <AiOutlineArrowDown /></Btn>
             </HeroContainer>
 
         

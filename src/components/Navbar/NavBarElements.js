@@ -17,6 +17,7 @@ export const Nav = styled.nav`
     @media screen and (max-width: 960px) {
         background: ${({ click }) => (click ? "#fff" : "transparent")};
         transition: 0.8s all ease;
+        font-size:1.3rem;
     }
 `
 
@@ -37,9 +38,17 @@ export const NavLogo = styled(Link)`
     justify-self: flex-start;
     cursor: pointer;
     text-decoration: none;
-    font-size: 1.5rem;
+    font-size: 2rem;
     display: flex;
     align-items: center;
+    &:hover {
+        color: #4575A5;
+        transition: all 0.3 ease;
+    }
+    @media screen and (max-width: 960px){
+        font-size: 1.5rem;
+        padding-left: 0;
+    }
 
 
 `
@@ -72,7 +81,7 @@ export const NavMenu = styled.ul`
     @media screen and (max-width: 960px){
         display: flex;
         flex-direction: column;
-        width: 100%
+        width: 100%;
         height: 90vh;
         position: absolute;
         top: ${({ click }) => (click ? "100%" : "-1000px") };
@@ -100,7 +109,13 @@ export const NavLinks = styled(Link)`
     padding: 0.5rem 1rem;
     height: 100%;
     font-family: "Lato", sans-serif;
+    font-weight: 500;
+    font-size: 1.1rem;
 
+    &:hover {
+        color: #6393C4;
+        transition: all 0.3 ease;
+    }
     @media screen and (max-width: 960px){
         text-align: center;
         padding: 2rem;
@@ -109,7 +124,7 @@ export const NavLinks = styled(Link)`
 
 
         &:hover {
-            color: #ff4040;
+            color: #6393C4;
             transition: all 0.3 ease;
         }
     }

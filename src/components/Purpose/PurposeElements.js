@@ -2,7 +2,8 @@ import styled from 'styled-components'
 
 export const Total = styled.div`
         padding-top: 1rem;
-        height: 50vh;
+        align-items: center;
+        height: 70vh;
         display: flex;
         padding-bottom: 1rem;
 
@@ -20,7 +21,8 @@ export const PurposeContainer = styled.div`
     padding-right: 1rem;
     @media screen and (max-width: 960px){
         border-right: none;
-        padding-right:auto;
+        padding-right:1rem;
+        padding-left: 1rem;
 
     }
     
@@ -31,7 +33,8 @@ export const PhilosophyContainer = styled.div`
     padding-left: 1rem;
 
     @media screen and (max-width: 960px){
-        padding-left:auto;
+        padding-left:1rem;
+        padding-right: 1rem;
     }
 `
 export const Head = styled.h1`

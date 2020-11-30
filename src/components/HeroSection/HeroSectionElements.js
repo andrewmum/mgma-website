@@ -2,7 +2,6 @@ import styled from 'styled-components'
 import bg from '../../images/background3.jpg'
 
 
-
 export const HeroContainer = styled.div`
     background-image: linear-gradient(black, black), url(${bg});
     background-blend-mode: saturation;
@@ -45,7 +44,7 @@ margin-top: 8px;
 color: #fff;
 font-size: 30px;
 font-family: "Lato" sans-serif;
-font-weight: 700;
+font-weight: 500;
 
 @media screen and (max-width: 768px){
         text-align:center;
@@ -59,7 +58,7 @@ margin-top: 8px;
 color: #fff;
 font-size: 32px;
 font-family: "Lato" sans-serif;
-font-weight: 700;
+font-weight: 500;
 
 @media screen and (max-width: 768px){
     
@@ -70,30 +69,31 @@ font-weight: 700;
 `
 
 export const HeroBtn = styled.button`
-        margin-top: 32px;
+        margin-top: 32px;     
 `
 
-export const Button = styled.button`
+export const BtnStyle = styled.button`
 
-border-radius: 4px;
-background: ${({ primary}) => (primary ? "#FF4040" : "#0467FB")};
-white-space: nowrap;
-padding: ${({big}) => (big ? "16px 64px" : "10px 20px")};
-color: #fff;
-font-size: ${({fontBig}) => (fontBig ? "30px" : "16px:" )};
-outline: none;
-border: none;
-cursor: pointer;
-font-family: "Ubuntu", sans-serif;
+            border-radius: 1px;
+            background: ${({ primary}) => (primary ? "#B7B2B2" : "#0467FB")};
+            white-space: nowrap;
+            padding: ${({big}) => (big ? "16px 64px" : "10px 20px")};
+            color: #fff;
+            font-size: ${({fontBig}) => (fontBig ? "25px" : "16px:" )};
+            outline: none;
+            border: none;
+            cursor: pointer;
+            font-family: "Lato", sans-serif;
 
-&:hover {
-    transition: all 0.3s ease-out;
-    background: ${({ primary}) => (primary ? "#0467FB" : "FF4040")};
+            &:hover {
+                transition: all 0.3s ease-out;
+                background: ${({ primary}) => (primary ? "#0467FB" : "#B7B2B2")};
 
-}
+            }
 
-@media screen and  (max-width: 960px){
-    width:100%;
-}
+            @media screen and  (max-width: 960px){
+                width:100%;
+                
+            }
 
 `

@@ -1,10 +1,12 @@
 import styled from 'styled-components'
+import Carousel from 'react-bootstrap/Carousel';
 
 export const MeetingContainer = styled.div`
     background: rgb(201,201,201);
     background: linear-gradient(90deg, rgba(201,201,201,1) 0%, rgba(255,255,255,1) 68%, rgba(242,246,247,1) 100%);
 
-    padding-top: 2rem;
+
+    align-items:center;
     height: 100vh;
     width:100%;
     padding-left: 1rem;
@@ -25,7 +27,7 @@ export const MeetingLeft = styled.div`
     
    
     @media screen and (max-width: 960px){
-        float: top;
+        
         width:100%;
     }
 
@@ -40,8 +42,9 @@ export const MeetingRight = styled.div`
     
 
     @media screen and (max-width: 960px){
-        float:bottom;
-        wiidth:100%;
+        
+        display: none;
+        
     }
 `
 
@@ -73,8 +76,9 @@ export const MeetingTime = styled.h1`
 
 `
 
-export const Caro = styled.div`
-object-fit: contain;
+
+
+export const ReactCaro = styled(Carousel)`
+    object-fit: contain;
 
 `
-

@@ -45,6 +45,9 @@ const NavBar = () =>
                                 <NavItem>
                                     <NavLinks to='/destinations'>Monthly Speaker</NavLinks>
                                 </NavItem>
+                                <NavItem>
+                                    <NavLinks >Events</NavLinks>
+                                </NavItem>
                             </NavMenu>
                     </NavbarContainer>
                 </Nav>
