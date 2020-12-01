@@ -2,13 +2,14 @@ import React from "react"
 
 
 import Layout from "../components/layout"
+import Speaker from '../components/Speaker'
 import SEO from "../components/seo"
 import "../../src/components/layout.css"
 
 const Destinations = () => (
   <Layout>
-    <SEO title="Destinations" />
-    <h1 className="destinations">Destinations</h1>
+    <SEO title="speaker" />
+    <Speaker />
   </Layout>
 )
 

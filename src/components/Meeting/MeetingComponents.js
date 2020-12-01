@@ -5,13 +5,17 @@ export const MeetingContainer = styled.div`
     background: rgb(201,201,201);
     background: linear-gradient(90deg, rgba(201,201,201,1) 0%, rgba(255,255,255,1) 68%, rgba(242,246,247,1) 100%);
 
-
+    
     align-items:center;
     height: 100vh;
     width:100%;
     padding-left: 1rem;
     display: flex;
-    
+    @media screen and (max-width: 960px){
+        flex-direction: column;
+        vertical-align: center;
+        padding-top:4rem;
+    }
     
 
 

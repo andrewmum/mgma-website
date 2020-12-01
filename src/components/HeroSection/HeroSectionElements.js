@@ -1,5 +1,5 @@
-import styled from 'styled-components'
 import bg from '../../images/background3.jpg'
+import styled from 'styled-components'
 
 
 export const HeroContainer = styled.div`
